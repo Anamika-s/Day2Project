@@ -28,7 +28,7 @@ namespace InheritanceDemo
         }
         public void A()
         {
-
+            Console.WriteLine("AAAA");
         }
 
     }
