@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorDemo", "Construc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{1674477D-EF93-4267-B0E6-1156F0A66A78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment6", "Assignment6\Assignment6.csproj", "{B9A6452E-1FE1-4556-A4F6-5773A9C6B671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1674477D-EF93-4267-B0E6-1156F0A66A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1674477D-EF93-4267-B0E6-1156F0A66A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1674477D-EF93-4267-B0E6-1156F0A66A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A6452E-1FE1-4556-A4F6-5773A9C6B671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A6452E-1FE1-4556-A4F6-5773A9C6B671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A6452E-1FE1-4556-A4F6-5773A9C6B671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A6452E-1FE1-4556-A4F6-5773A9C6B671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
