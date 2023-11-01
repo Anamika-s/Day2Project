@@ -98,4 +98,12 @@ namespace ConstructorDemo
             this.marks  = student.marks;
         }
     }
+
+      static class ExtendingStudentClass
+    {
+        public static void AAA(this Student s)
+        {
+            System.Console.WriteLine("");
+        }
+    }
 }

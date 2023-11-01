@@ -24,11 +24,12 @@
             Console.WriteLine("Enter side");
             side = Byte.Parse(Console.ReadLine());
         }
+        public void A() { }
     }
     class Rectangle : Shape
     {
         int length, breadth;
-        
+
         public override void GetDimensions()
         {
             Console.WriteLine("Enter length");
@@ -43,59 +44,51 @@
 
 
     }
-    //class Square
-    //{
-    //    int side;
-    //    int area;
-    //    public void GetDimensions()
-    //    {
-    //        Console.WriteLine("Enter side");
-    //        side = Byte.Parse(Console.ReadLine());
-    //    }
-    //    public void CalculateArea()
-    //    {
-    //        area = side * side;
-    //    }
-    //    public void DisplayArea()
-    //    {
-    //        Console.WriteLine("Area is " + area);
-    //    }
-    //}
 
-    //class Rectangle
-    //{
-    //    int length, breadth;
-    //    int area;
-    //    public void GetDimensions()
-    //    {
-    //        Console.WriteLine("Enter length");
-    //        length = Byte.Parse(Console.ReadLine());
-    //        Console.WriteLine("Enter breadth");
-    //        breadth = Byte.Parse(Console.ReadLine());
-    //    }
-    //    public void CalculateArea()
-    //    {
-    //        area = length * breadth;
-    //    }
-    //    public void DisplayArea()
-    //    {
-    //        Console.WriteLine("Area is " + area);
-    //    }
-    //}
 
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Shape square = new Square();
-            // square.GetDimensions();
-            // square.CalculateArea();
-            // square.DisplayArea();
-            Shape shape;
+
+            Shape shape = null;
             Console.WriteLine("Enter shape type");
             int c = Byte.Parse(Console.ReadLine());
-            shape = new Square();
+            if (c == 1)
+            {
+                shape = new Square();
+               
+            }
+            else if (c == 2)
+            {
+                shape = new Rectangle();
+                
+            }
+            CheckShape checkShape = new CheckShape();
+            checkShape.Checkshape(shape);
+
+
 
         }
     }
+
+    class CheckShape
+        {
+          public void Checkshape(Shape shape)
+        {
+            if (shape is Square)
+            {
+                shape = (Square)shape;
+                
+                
+            }
+            else if(shape is Rectangle) {
+                shape = (Rectangle)shape;
+
+                    }
+            shape.GetDimensions();
+            shape.CalculateArea();
+            shape.DisplayArea();
+        }
+        }
 }

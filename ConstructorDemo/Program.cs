@@ -13,7 +13,7 @@
             // para cons
             Student student2 = new Student(name:"deepak");
             student2.DisplayDetails();
-
+            student1.AAA();
             // para cons
             Student student3 = new Student(id:10);
 

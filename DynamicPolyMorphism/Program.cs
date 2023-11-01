@@ -32,7 +32,7 @@
                 Foo((PartTimEmployee)emp);
 
             else if (emp is FullTimEmployee)
-                Foo((FullTimEmployee)emp);
+                Foo((FullTimEmployee)emp)
 
             else
                 Foo(emp);

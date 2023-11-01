@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLevelInhritanceDemo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassInterfaceDemo", "AbstractClassInterfaceDemo\AbstractClassInterfaceDemo.csproj", "{69BCC74F-D0DE-42B8-A922-49710FE839F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment9", "Assignment9\Assignment9.csproj", "{FB14C934-E3D5-45CE-90F5-20392F8E00EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscTopics", "MiscTopics\MiscTopics.csproj", "{CA9425D3-7AF2-4AFF-B819-28D846CCABC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{69BCC74F-D0DE-42B8-A922-49710FE839F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69BCC74F-D0DE-42B8-A922-49710FE839F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69BCC74F-D0DE-42B8-A922-49710FE839F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB14C934-E3D5-45CE-90F5-20392F8E00EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB14C934-E3D5-45CE-90F5-20392F8E00EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB14C934-E3D5-45CE-90F5-20392F8E00EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB14C934-E3D5-45CE-90F5-20392F8E00EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9425D3-7AF2-4AFF-B819-28D846CCABC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9425D3-7AF2-4AFF-B819-28D846CCABC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9425D3-7AF2-4AFF-B819-28D846CCABC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9425D3-7AF2-4AFF-B819-28D846CCABC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
