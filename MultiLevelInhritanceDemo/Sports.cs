@@ -11,7 +11,7 @@ namespace MultiLevelInhritanceDemo
     {
         string sportsname;
         protected int score;
-        public void GetDetails()
+        public override void GetDetails()
         {
             base.GetDetails();
             Console.WriteLine("Enter sportsname");

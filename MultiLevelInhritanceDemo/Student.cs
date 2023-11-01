@@ -11,7 +11,7 @@ namespace MultiLevelInhritanceDemo
     {
         int rn;
         string name;
-        public void GetDetails()
+        public virtual void GetDetails()
         {
             Console.WriteLine("Enter rn");
             rn = int.Parse(Console.ReadLine());
